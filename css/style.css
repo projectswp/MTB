@@ -1647,4 +1647,17 @@ text-align: center;}
     transition: all 0.3s ease-in;
     border-radius: 30px;
 }
+/*  */
 
+.concert {
+    padding: 20px 0;
+    margin-top: 90px;
+}
+
+.concert figure {margin: 0;}
+.concert figure img {width: 100%;}
+
+.concert2 {
+    padding: 20px 0;
+    margin-top: 90px;
+}
