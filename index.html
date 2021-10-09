@@ -68,8 +68,19 @@
                       <li> <a href="contact.html">Contact</a> </li>
       
                       <li > <a   href="login.html">login</a> </li>
-                      <li  > <a  class="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
-                      
+                      <!-- <li  > <a  class="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li> -->
+                      <li class="search-wrap">
+                        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+                        <i id="searchIcon" class="material-icons accent">search</i>
+                        <input type="text" id="search">
+                        <i id="clear" class="material-icons">clear</i>
+                        </li>
+                      <!-- <li class="search_box">
+                        <form id="searchBox">
+                          <input type="text" name="input" id="searchInput">
+                          <button type="reset" class="search" id="searchBtn"></button>	
+                        </form>
+                      </li>   -->
                      </ul>
                    </nav>
                 
@@ -98,7 +109,7 @@
                   <div class="col-md-12">
                     <div class="text-bg">
                       <span>The Best</span>
-                      <h1>SINGLE EVER</h1>
+                      <h1>SINGER EVER</h1>
                       <p>Son Tung MTP is a talented singer in many different genres of music. He once achieved a score of 25.5 at the Ho Chi Minh City Conservatory, the valedictorian score at that time.</p>
                       <a href="#">Music & Entertainment</a>
                       <a href="#" id="button" class="button"> Buy Tickets </a>
@@ -157,7 +168,7 @@
       <form action="">
         <input class="pop" type="text" placeholder="Ticket">
         <input class="pop" type="text" placeholder="E-mail">
-        <a href="" id="button" class="buttonBuy">Buy</a>
+        <a href="cart.html" id="button" class="buttonBuy">Buy</a>
       </form>
     </div>
 
@@ -382,6 +393,10 @@
           <script src="js/jquery-3.0.0.min.js"></script>
           <script src="js/plugin.js"></script>
           <script src="js/modalHome.js"></script>
+          <script src="js/search.js"></script>
+
+
+
 
           <!-- sidebar -->
           <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
