@@ -68,12 +68,18 @@
       
                       <li > <a   href="login.html">login</a> </li>
                       <!-- <li  > <a  class="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li> -->
-                      <li class="search-wrap">
-                        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-                        <i id="searchIcon" class="material-icons accent">search</i>
-                        <input type="text" id="search">
-                        <i id="clear" class="material-icons">clear</i>
-                        </li>                      
+                      <li class="search-toggle">
+                        <div class="search-container">
+                          <div id="search-group" class="search-group close-search">
+                            <div class="toggle-target-container">
+                              <div class="toggle-target"><input   type="text" class="search-text" placeholder="Search"></div>
+                            </div>
+                            <div class="search-button-container">
+                              <span class="input-group-addon search-button"><i class="fa fa-search" id="search-icon"></i></span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>                    
                      </ul>
                    </nav>
                 
