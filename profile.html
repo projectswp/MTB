@@ -41,6 +41,7 @@
   <!-- header -->
   <header>
     <!-- header inner -->
+
       <div class="header">
         <div class="container">
           <div class="row">
@@ -60,40 +61,41 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li> <a href="index.html">Home</a> </li>
-                  
+                   
                       <li> <a href="about.html">About</a> </li>
-                      <li class="active"> <a href="concerts.html">Concerts </a> </li>
+                      <li> <a href="Concerts.html">Concerts </a> </li>
                       <li> <a href="gallery.html">Gallery</a> </li>
                       <li> <a href="contact.html">Contact</a> </li>
-      
-                      <li > <a   href="login.html">login</a> </li>
-                      <!-- <li  > <a  class="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li> -->
-                      <li class="search-toggle">
-                        <div class="search-container">
-                          <div id="search-group" class="search-group close-search">
-                            <div class="toggle-target-container">
-                              <div class="toggle-target"><input   type="text" class="search-text" placeholder="Search"></div>
-                            </div>
-                            <div class="search-button-container">
-                              <span class="input-group-addon search-button"><i class="fa fa-search" id="search-icon"></i></span>
+
+                        <li class="active" > <a   href="login.html">login</a> </li>
+                        <li class="search-toggle">
+                          <div class="search-container">
+                            <div id="search-group" class="search-group close-search">
+                              <div class="toggle-target-container">
+                                <div class="toggle-target"><input   type="text" class="search-text" placeholder="Search"></div>
+                              </div>
+                              <div class="search-button-container">
+                                <span class="input-group-addon search-button"><i class="fa fa-search" id="search-icon"></i></span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </li>  
-                      <li class="action-profile">
-                        <div class="profile" onclick="menuToggle();">
-                          <img src="images/up.jpg">
-                        </div>
-                        <div class="menu-profile">
-                          <h3>Son Tung<br><span>MTP</span></h3>
-                          <ul>
-                            <li><img src="images/user.png"><a href="profile.html">My profile</a></li>
-                            <li><img src="images/edit.png"><a href="profile.html">Edit profile</a></li>
-                            <li><img src="images/question.png"><a href="about.html">Help</a></li>
-                            <li><img src="images/log-out.png"><a href="###">Log out</a></li>
-                          </ul>
-                        </div>
-                      </li>                  
+                        </li>
+                        <li class="action-profile">
+                          <div class="profile" onclick="menuToggle();">
+                            <img src="images/up.jpg">
+                          </div>
+                          <div class="menu-profile">
+                            <h3>Son Tung<br><span>MTP</span></h3>
+                            <ul>
+                              <li><img src="images/user.png"><a href="profile.html">My profile</a></li>
+                              <li><img src="images/edit.png"><a href="profile.html">Edit profile</a></li>
+                              <li><img src="images/question.png"><a href="about.html">Help</a></li>
+                              <li><img src="images/log-out.png"><a href="###">Log out</a></li>
+                            </ul>
+                          </div>
+                        </li>
+
+
                      </ul>
                    </nav>
                 
@@ -106,85 +108,45 @@
      <!-- end header inner -->
 
      <!-- end header -->
-     
+   
 </header>
 
 
 
-
-<!-- upcoming -->
-<div id="concert" class="concert">
-  <div class="container-fluid padding_left3">
-    <div class="row display_boxflex">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-       <div class="box_text">
-          <div class="titlepage">
-            <h2>SkytourHCM</h2>
-          </div>
-          <!-- <p>If you have been through Skytour on MTP entertainment or on Netflix and want to see it live once. So don't worry, at the end of this year, Son Tung plans to make a big music show around Vietnam called Skytour2. Let's wait together. </p> -->
-          <h1> Số vé: 10000 vé </h1>
-          <h1> Giá vé: 200.000 đồng </h1>
-          <h3> Trung tâm thương mại ICON 68, số 2 Hải Triều, quận 1, thành phố Hồ Chí Minh </h3>
-          <a href="#" id="button" class="buttonbuy">Buy now</a>
-
+<!-- profile  -->
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px"
+                 src="images/up.jpg"><span class="font-weight-bold">Son Tung</span><span class="text-black-50">Sontung@mail.com</span><span> </span></div>
         </div>
-      </div> 
-    
-      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 border_right">
-         <div class="upcomimg">
-           <figure><img src="images/concert1.jpg".jpg alt="#"/></figure>
-
-        </div>
+        <div class="col-md-9 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
+                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address</label><input type="text" class="form-control" placeholder="enter address" value=""></div>
+                    <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="enter email id" value=""></div>
+                </div>
+                </div>
+                <div class="mt-6 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+            </div>
         </div>
     </div>
-
 </div>
-
-<div id="concert2" class="concert2">
-  <div class="container-fluid padding_left3">
-    <div class="row display_boxflex">
-
-    
-      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-         <div class="upcomimg">
-           <figure><img src="images/concert 2.jpg".jpg alt="#"/></figure>
-
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 border_right">
-        <div class="box_text">
-           <div class="titlepage">
-             <h2>SkytourHN</h2>
-           </div>
-           <!-- <p>If you have been through Skytour on MTP entertainment or on Netflix and want to see it live once. So don't worry, at the end of this year, Son Tung plans to make a big music show around Vietnam called Skytour2. Let's wait together. </p> -->
-           <h1> Số vé: 10000 vé </h1>
-           <h1> Giá vé: 500.000 đồng </h1>
-           <h3> CGV Mipec Tower Tầng 5, MIPEC Tower 229 Tây Sơn Quận Đống Đa, Hà Nội </h3>
-           <a href="#" id="button1" class="buttonlogin">Buy now</a>
- 
-         </div>
-       </div> 
-    </div>
-
 </div>
-<!-- end upcoming -->
-<!-- pop -->
-<div class="bg-modal">
-  <div class="modal-content">
-    <div class="close">
-      +
-    </div>
-    <img src="images/logo.png" alt="">
-    <form action="">
-      <input class="pop" type="text" placeholder="Ticket">
-      <input class="pop" type="text" placeholder="E-mail">
-      <a href="cart.html" id="button" class="buttonBuy">Buy</a>
-    </form>
-  </div>
-
 </div>
+<!-- end profile -->
 
-<!-- pop -->
+
+
+
 
 
     <!--  footer -->
@@ -192,29 +154,7 @@
       <div class="footer ">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <form class="contact_bg">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="titlepage">
-                  <h2>Contact us</h2>
-                </div>
-                <div class="col-md-12">
-                  <input class="contactus" placeholder="Your Name" type="text" name="Your Name">
-                </div>
-                <div class="col-md-12">
-                  <input class="contactus" placeholder="Your Email" type="text" name="Your Email">
-                </div>
-                <div class="col-md-12">
-                  <input class="contactus" placeholder="Your Phone" type="text" name="Your Phone">
-                </div>
-                <div class="col-md-12">
-                  <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                </div>
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                  <button class="send">Send</button>
-                </div>
-              </div>
+
             </div>
             </form>
 
@@ -273,10 +213,8 @@
           <script src="js/bootstrap.bundle.min.js"></script>
           <script src="js/jquery-3.0.0.min.js"></script>
           <script src="js/plugin.js"></script>
-          <script src="js/modal.js"></script>
           <script src="js/search.js"></script>
           <script src="js/profile-box.js"></script>
-
 
 
           <!-- sidebar -->

@@ -2100,7 +2100,7 @@ text-align: center;}
     top: 120px;
     right: -10px;
     padding: 10px 20px;
-    background: #fff;
+    background: #0ed1f0;
     width: 200px;
     box-sizing: 0 5px 25px rgba(0,0,0,0.1);
     border-radius: 15px;
@@ -2113,6 +2113,7 @@ text-align: center;}
     top: 80px;
     visibility: visible;
     opacity: 1;
+    z-index: 99;
 }
 .action-profile .menu-profile::before
 {
@@ -2173,4 +2174,51 @@ text-align: center;}
 .action-profile .menu-profile ul li a:hover a\
 {
     color: rgb(248, 4, 4);
+}
+
+
+
+/*  */
+
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0ed1f0;
+}
+
+.profile-button {
+    background: #0ed1f0;
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #0ed1f0;
+}
+
+.profile-button:focus {
+    background: #0ed1f0;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #0ed1f0;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #0ed1f0;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #0ed1f0;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #0ed1f0
 }
